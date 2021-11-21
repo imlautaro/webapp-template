@@ -3,6 +3,7 @@ import Vue from '@vitejs/plugin-vue'
 import WindiCSS from 'vite-plugin-windicss'
 import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
 
 export default defineConfig({
 	plugins: [
@@ -17,6 +18,9 @@ export default defineConfig({
 				/\.md$/, // .md
 			],
 			imports: ['vue'],
+		}),
+		Components({
+			dts: true,
 		}),
 	],
 })
