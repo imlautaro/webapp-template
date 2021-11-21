@@ -5,6 +5,8 @@ import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import Pages from 'vite-plugin-pages'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 
 export default defineConfig({
 	plugins: [
@@ -22,7 +24,15 @@ export default defineConfig({
 		}),
 		Components({
 			dts: true,
+			resolvers: [
+				IconsResolver({
+					prefix: false,
+				}),
+			],
 		}),
 		Pages(),
+		Icons({
+			autoInstall: true,
+		}),
 	],
 })

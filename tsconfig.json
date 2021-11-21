@@ -23,6 +23,7 @@
 		"src/**/*.vue",
 		"components.d.ts",
 		"auto-imports.d.ts",
-		"vite-env.d.ts"
+		"vite-env.d.ts",
+		"unplugin-icons.d.ts"
 	]
 }
