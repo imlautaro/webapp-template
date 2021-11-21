@@ -4,6 +4,7 @@ import WindiCSS from 'vite-plugin-windicss'
 import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
+import Pages from 'vite-plugin-pages'
 
 export default defineConfig({
 	plugins: [
@@ -22,5 +23,6 @@ export default defineConfig({
 		Components({
 			dts: true,
 		}),
+		Pages(),
 	],
 })
