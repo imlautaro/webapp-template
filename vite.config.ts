@@ -7,6 +7,7 @@ import Components from 'unplugin-vue-components/vite'
 import Pages from 'vite-plugin-pages'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
+import { resolve } from 'pathe'
 
 export default defineConfig({
 	plugins: [
@@ -35,4 +36,10 @@ export default defineConfig({
 			autoInstall: true,
 		}),
 	],
+	resolve: {
+		alias: {
+			'~~': __dirname,
+			'~': resolve(__dirname, 'src'),
+		},
+	},
 })
