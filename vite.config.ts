@@ -21,7 +21,7 @@ export default defineConfig({
 				/\.vue\?vue/, // .vue
 				/\.md$/, // .md
 			],
-			imports: ['vue'],
+			imports: ['vue', 'vue-router'],
 		}),
 		Components({
 			dts: true,
