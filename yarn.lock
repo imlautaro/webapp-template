@@ -4822,17 +4822,18 @@ v8-to-istanbul@^8.1.0:
     convert-source-map "^1.6.0"
     source-map "^0.7.3"
 
-vite-plugin-pages@^0.18.2:
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.18.2.tgz#b214f7a166e74dd55adc90a5e774c6543c3abdb3"
-  integrity sha512-Z6ylvMKYSiCngtSpWw9pHN4UzjMQvOG7f0RtLMDKm1LrO5iye7V8BS8Rfdvrl9Nz+D2W+i0pi98+vOL5VsmTvQ==
+vite-plugin-pages@^0.19.0-beta.4:
+  version "0.19.0-beta.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pages/-/vite-plugin-pages-0.19.0-beta.4.tgz#93aa7214d55fd8bd09b4bc128a82951d34ec7dd7"
+  integrity sha512-dez6DL9DhafCtNlMbXwYbk2ym/TtOm2Z+lrLg6NlEpZT2lygVSPe0qR7QeHDKgLMSr4iFRw0EH1/69jo1XhU5g==
   dependencies:
     "@antfu/utils" "^0.3.0"
     debug "^4.3.2"
     deep-equal "^2.0.5"
     fast-glob "^3.2.7"
     json5 "^2.2.0"
-    yaml "^2.0.0-8"
+    local-pkg "^0.4.0"
+    yaml "^2.0.0-9"
 
 vite-plugin-pwa@^0.11.6:
   version "0.11.6"
@@ -5379,7 +5380,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^2.0.0-8:
+yaml@^2.0.0-9:
   version "2.0.0-9"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.0.0-9.tgz#0099f0645d1ffa686a2c5141b6da340f545d3634"
   integrity sha512-Bf2KowHjyVkIIiGMt7+fbhmlvKOaE8DWuD07bnL4+FQ9sPmEl/5IzGpBpoxPqOaHuyasBjJhyXDcISpJWfhCGw==
