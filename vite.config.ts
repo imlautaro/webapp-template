@@ -34,6 +34,7 @@ export default defineConfig({
 		Pages(),
 		Icons({
 			autoInstall: true,
+			scale: 1.5,
 		}),
 	],
 	resolve: {
